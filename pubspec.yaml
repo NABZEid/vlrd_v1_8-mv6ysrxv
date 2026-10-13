@@ -1,0 +1,24 @@
+name: villiard
+description: Villiard - billiard 8 Ball Pool style (14 arena, pilih lubang bola 8, sfx masuk arena)
+publish_to: 'none'
+version: 1.8.0+9
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.3
+  audioplayers: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/sound/
